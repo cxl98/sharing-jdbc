@@ -1,7 +1,10 @@
-# Project exclude paths
-/target/
-/.idea/
- sharing-jdbc.iml
+# Created by .ignore support plugin (hsz.mobi)
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
 
 ### Maven template
 target/
@@ -19,8 +22,11 @@ buildNumber.properties
 ### Example user template template
 ### Example user template
 
-# IntelliJ project files
-.idea
-*.iml
-out
-gen
+
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml

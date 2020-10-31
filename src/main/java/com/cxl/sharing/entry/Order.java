@@ -1,7 +1,6 @@
 package com.cxl.sharing.entry;
 
 import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 import lombok.ToString;
 
@@ -9,6 +8,7 @@ import java.util.Date;
 
 @Data
 @ToString
+@ApiModel(value = "Order",description = "订单信息")
 public class Order {
     private Long orderId;
 
